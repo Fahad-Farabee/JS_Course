@@ -1,0 +1,38 @@
+Events in js:
+--------------
+
+The change in the state of an object is known as an event.
+Events are fired to notify code of "interesting changes" that may affect code execution.
+for detailed events and eventhandling go to : https://developer.mozilla.org/en-US/docs/Web/Events
+
+syntex: 
+    node.event = () =>{
+        //handle here
+    }
+
+2 things to remember :
+1. zodi eki code e ekjaygay inline event handle kori ar js script e alada handle kori tahole js er tai kaj korbe
+2. zodi eki element er upr same event i barbar kora hoy tahole last er handling ta kaj korbe onno gula kaj korbe na
+
+
+Event object:
+-------------
+it is a spacial object that has details about the event.
+all event handlers have access to the event object's properties and methods.
+
+syntex: 
+    node.event = (e) =>{
+        //handle here
+    }
+e is the event object here. this has many functions and properties
+
+
+Event Listner:
+---------------
+1. node.addEventListener     (event, callback)
+the events that we perform <-|    |-> the functions that we perfom.
+
+eta user korar sobceye boro subidha holo unlike event amra eta diye same event er upor multiple kaj koraite parbo.
+2.node.removeEventListener  (event, callback)
+                                    |-> addEventListener diye ze fnc banaisi same func tai ekane pass koraite hobe
+                                    

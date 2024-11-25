@@ -1,0 +1,16 @@
+#heading{
+    background-color: red;
+}
+.heading-class{
+    background-color: yellowgreen;
+}
+body{
+    background-color: aquamarine;
+}
+.box{
+    border: 2.5px solid black;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    text-align: center;
+}

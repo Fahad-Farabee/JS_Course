@@ -1,0 +1,36 @@
+Loops in JS:
+-------------
+loops are used to execute a piece of code again and again
+
+1.//for loops
+for(let i = 1; i<= 5; i++){
+    console.log("hello");
+}
+//let i = 1 -> initialiazation
+//i<=5 -> stopping condition
+//i++ -> updation
+
+
+2. while loops:
+->initialization
+while(condition -> stopping condition){
+code to be executed;
+->updations
+}
+3. do while loops:
+do{
+code to be executed;
+}while(condition);
+works at least one time;
+
+4.for-of loop:
+it is used in strings and arrays
+for (let val of strVal){
+	code to be executed;
+}
+
+5.for-in loop:
+it is used in objects and arrays
+for (let key in objVar){
+	code to be executed;
+}

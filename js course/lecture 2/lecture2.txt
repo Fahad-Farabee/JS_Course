@@ -1,0 +1,64 @@
+Operators in JS:
+----------------
+1. Arithmetic Operators:
+	|->addition -> +
+	|->substraction -> -
+	|->multiplication -> *
+	|->divide -> /
+	|->modulus -> %
+	|->exponential -> **
+	|->increment -> ++ (unary op)
+	|->decrement -> -- (unary op)
+
+2. Assignment Operators:
+	|-> =
+	|-> +=
+	|-> -=
+	|-> *=
+	|-> %=
+	|-> **=
+
+
+3. comparison Operators:
+	|-> == (equal to => only checks values are same)
+	|-> === (equal to & type =>  checks both values and data type are same)(in js we generally use this comparison op)
+	|-> != (not equal to => only checks values are not same)
+	|-> !== (not equal to & type =>  checks values and data type are not same)
+	|-> >
+	|-> >=
+	|-> <
+	|-> <=
+	
+4. Logical Operators:
+	|-> && (logical and ) (all conditions true then true)
+	|-> || (logical OR ) (at least one condition is true then true)
+	|-> ! (logical not)
+	
+
+Conditional statements in JS:
+------------------------------
+To implement some condition in the code.
+
+if Statement:
+
+if(cond){
+	code to be executed;
+}
+
+if-else Statement:
+if(cond){
+code for true condition to be executed;
+}else{
+code for not true/false condition to be executed;
+}
+
+else-if Statement:
+if(cond1){
+code to be executed;
+}else if(cond2){
+code to be executed;
+}else if(cond3){
+code to be executed;
+}else{
+code to be executed;
+}
